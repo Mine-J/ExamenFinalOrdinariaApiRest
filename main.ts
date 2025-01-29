@@ -37,6 +37,7 @@ const handler = async (
     
   }
 
+  
   return new Response("Endpoint not found", { status: 400 });
 };
 
